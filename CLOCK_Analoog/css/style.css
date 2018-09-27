@@ -1,0 +1,53 @@
+html, body, #container{
+	height: 100%;
+	background-color: #dcdde1;
+}
+
+#container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#clock{
+	position: relative;
+	width: 500px;
+	height: 500px;
+	background-image: url(../images/clock.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.wijzers{
+	position: absolute;
+	top: 0;
+	left: 0;
+	top:0%;
+	left: 242.5px;
+	transform-origin: bottom;
+}
+
+#uurWijzer{
+	top: 132px;
+}
+
+#minuutWijzer{
+	top: 76px;
+}
+
+#bolleke{
+	position: absolute;
+	max-width: 25px;
+	width: 100%;
+	height: 25px;
+	border-radius: 50%;
+	background-color: #369093;
+	left: 237.5px;
+	top: 237.5px;
+}
+
+#secondWijzer{
+	top: -26px;
+	left: 246.5px;
+}
+

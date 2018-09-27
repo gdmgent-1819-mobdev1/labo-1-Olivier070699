@@ -1,0 +1,33 @@
+@font-face{
+	font-family: 'CRC35';
+	src:url('../fonts/CRC35.otf');
+	src: local('../fonts/CRC35.otf'), url('../fonts/CRC35.otf') format('OpenType');
+}
+
+@font-face{
+	font-family: 'CRC65';
+	src:url('../fonts/CRC65.otf');
+	src: local('../fonts/CRC65.otf'), url('../fonts/CRC65.otf') format('OpenType');
+}
+
+*{
+	margin:0;
+	padding: 0;
+	border: 0;
+	text-align: center;
+	color: #74b9ff;
+	background-color: #ffeaa7;
+}
+
+h2{
+	font-size: 16pt;
+	margin-top: 150px;
+	font-family: 'CRC35';
+	text-transform: uppercase;
+}
+
+p{
+	font-size: 50pt;
+	font-family: 'CRC65';
+}
+

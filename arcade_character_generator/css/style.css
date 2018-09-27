@@ -1,0 +1,44 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background-color: #82ccdd;
+}
+
+#container{
+	max-width: 1000px;
+	width: 100%;
+	height: 500px;
+	margin: 90px auto;
+	border: solid 20px #6a89cc;
+	border-radius: 5%;
+}
+
+#block{
+	width: 500px;
+	height: 500px;
+	display: inline-block;
+	float: left;
+}
+
+#block:nth-child(2){
+	transform: scaleX(-1);
+}
+
+.white{
+	max-width: 100px;
+	width: 100%;
+	height: 100px;
+	display: inline-block;
+	float: left;
+	background-color: #fff;
+}
+
+.black{
+	max-width: 100px;
+	width: 100%;
+	height: 100px;
+	display: inline-block;
+	float: left;
+	background-color: #000;	
+}
